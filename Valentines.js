@@ -33,3 +33,7 @@ function showYesPopup()
     document.getElementById("sorry").style.display = "none";
     document.getElementById("please").style.display = "block"
 }
+function submitDate()
+{
+    document.getElementById("dates").style.display = "none";
+}
