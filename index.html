@@ -12,7 +12,7 @@
        <h1>Happy Valentines</h1> 
        <h2>From your boyfriend</h2>
     </div>
-    <div class="paragraph">
+    <div class="paragraph" id="mainContent">
         <p>This is the first Valentines we spent with each other
             <br>So I decided to make a little website for yo that you can open whenever you want
             <br>this will be my first time making a proper website so please bear with me :3
@@ -41,7 +41,8 @@
         <p>will you be my valentine?</p>
         <button onclick="showRadioButtons()">Yes</button>
         <button>No</button>
-        <div id="radioButtons" class="content">
+    </div>
+        <div id="radioButtons" class="content" style="display: none;">
             <h3>Reason why you like me:</h3>
             <input type="checkbox" name="reason" value="smart"> Smart<br>
             <input type="checkbox" name="reason" value="funny"> Funny<br>
@@ -51,8 +52,9 @@
             <input type="checkbox" name="reason" value="uhuh"> ;)<br>
             <input type="checkbox" name="reason" value="sweet"> Sweet<br>
             <input type="checkbox" name="reason" value="understanding"> Understanding<br>
+            <button onclick="submitReasons()">Submit</button>
         </div>
-        <button onclick="submitReasons()">Submit</button>
+        
         
     </div>
     </body>
