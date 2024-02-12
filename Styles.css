@@ -14,3 +14,28 @@ body
 {
     background-color: beige;
 }
+.button
+{
+    transition-duration: 1s;
+    color:rgb(0, 0, 0);
+    background-color: lightgrey;
+    border-radius: 4px;
+    font-size: 20px;
+    padding: 6px 9px;
+}
+.button:hover {
+    background-color: pink;
+    color: white;
+  }
+.center
+{
+    text-align: center;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.Dates
+{
+    text-align: center;
+}
