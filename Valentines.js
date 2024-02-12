@@ -2,6 +2,7 @@ function showRadioButtons() {
     document.getElementById("mainContent").style.display = "none"; // Hide main content
     document.getElementById("radioButtons").style.display = "block"; // Show radio buttons
 }
+
 function submitReasons() {
     var reasons = document.querySelectorAll('input[name="reason"]:checked');
     var selectedReasons = [];
