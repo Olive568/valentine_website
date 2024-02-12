@@ -1,0 +1,16 @@
+.First{
+    text-align: center;
+    background-color: pink;
+    font-family: "Brush Script MT", cursive;
+}
+.paragraph
+{
+    text-align: center;
+    font-size: large;
+    font-weight: 1000;
+    font-family: "Pacifico", cursive;
+}
+body
+{
+    background-color: beige;
+}
