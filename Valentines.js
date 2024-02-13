@@ -35,6 +35,10 @@ function showYesPopup()
     document.getElementById("sorry").style.display = "none";
     document.getElementById("please").style.display = "block"
 }
+function skip(button) {
+    hideCurrentPage(button.parentElement);
+    document.getElementById("menu").style.display = "block";
+}
 function submitDate()
 {
     document.getElementById("dates").style.display = "none";
@@ -59,4 +63,52 @@ function menu3(button) {
 function menu4(button) {
     hideCurrentPage(button.parentElement);
     document.getElementById("letter_4").style.display = "block";
+}
+function menu5(button) {
+    hideCurrentPage(button.parentElement);
+    document.getElementById("letter_5").style.display = "block";
+}
+function menu6(button) {
+    hideCurrentPage(button.parentElement);
+    document.getElementById("letter_6").style.display = "block";
+}
+function menu7(button) {
+    hideCurrentPage(button.parentElement);
+    document.getElementById("letter_7").style.display = "block";
+}
+function menu8(button) {
+    hideCurrentPage(button.parentElement);
+    document.getElementById("letter_8").style.display = "block";
+}
+function menu9(button) {
+    hideCurrentPage(button.parentElement);
+    document.getElementById("letter_9").style.display = "block";
+}
+function menu10(button) {
+    hideCurrentPage(button.parentElement);
+    document.getElementById("letter_10").style.display = "block";
+}
+function menu11(button) {
+    hideCurrentPage(button.parentElement);
+    document.getElementById("letter_11").style.display = "block";
+}
+function menu12(button) {
+    hideCurrentPage(button.parentElement);
+    document.getElementById("letter_12").style.display = "block";
+}
+function menu13(button) {
+    hideCurrentPage(button.parentElement);
+    document.getElementById("letter_13").style.display = "block";
+}
+function menu14(button) {
+    hideCurrentPage(button.parentElement);
+    document.getElementById("letter_14").style.display = "block";
+}
+function menu15(button) {
+    hideCurrentPage(button.parentElement);
+    document.getElementById("letter_415").style.display = "block";
+}
+function menu16(button) {
+    hideCurrentPage(button.parentElement);
+    document.getElementById("letter_16").style.display = "block";
 }
