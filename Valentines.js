@@ -3,7 +3,9 @@ function showRadioButtons() {
     document.getElementById("radioButtons").style.display = "block"; // Show radio buttons
     document.getElementById("obey").style.display = "none"
 }
-
+function hideCurrentPage(element) {
+    element.style.display = "none";
+}
 function submitReasons() {
     /*var reasons = document.querySelectorAll('input[name="reason"]:checked');
     var selectedReasons = [];
@@ -38,8 +40,7 @@ function submitDate()
     document.getElementById("dates").style.display = "none";
     document.getElementById("menu").style.display = "block";
 }
-function menu1()
-{
-    document.getElementById("menu").style.display = "none";
-    document.getElementById("please").style.display = "block"
+function menu1() {
+    hideCurrentPage(this.parentElement);
+    document.getElementById("please").style.display = "block";
 }
