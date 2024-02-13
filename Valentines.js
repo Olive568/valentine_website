@@ -36,4 +36,10 @@ function showYesPopup()
 function submitDate()
 {
     document.getElementById("dates").style.display = "none";
+    document.getElementById("menu").style.display = "block";
+}
+function menu1()
+{
+    document.getElementById("menu").style.display = "none";
+    document.getElementById("please").style.display = "block"
 }
