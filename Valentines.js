@@ -2,12 +2,13 @@ function showRadioButtons() {
     document.getElementById("mainContent").style.display = "none"; // Hide main content
     document.getElementById("radioButtons").style.display = "block"; // Show radio buttons
     document.getElementById("obey").style.display = "none"
+    document.getElementById("begging").style.display = "none"
 }
 function hideCurrentPage(element) {
     element.style.display = "none";
 }
 function submitReasons() {
-    /*var reasons = document.querySelectorAll('input[name="reason"]:checked');
+    var reasons = document.querySelectorAll('input[name="reason"]:checked');
     var selectedReasons = [];
     reasons.forEach(function(checkbox) {
         selectedReasons.push(checkbox.value);
@@ -17,7 +18,7 @@ function submitReasons() {
 
     var mailtoLink = "mailto:luislabapis@gmail.com?subject=Valentine's Day Reasons&body=" + encodeURIComponent(emailBody);
 
-    window.location.href = mailtoLink;*/
+    window.location.href = mailtoLink;
     document.getElementById("radioButtons").style.display = "none";
     document.getElementById("dates").style.display = "block";
 }
@@ -106,9 +107,14 @@ function menu14(button) {
 }
 function menu15(button) {
     hideCurrentPage(button.parentElement);
-    document.getElementById("letter_415").style.display = "block";
+    document.getElementById("letter_15").style.display = "block";
 }
 function menu16(button) {
     hideCurrentPage(button.parentElement);
     document.getElementById("letter_16").style.display = "block";
+}
+function begging(button)
+{
+    hideCurrentPage(button.parentElement);
+    document.getElementById("begging").style.display = "block";
 }
