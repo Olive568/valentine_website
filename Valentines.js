@@ -40,7 +40,23 @@ function submitDate()
     document.getElementById("dates").style.display = "none";
     document.getElementById("menu").style.display = "block";
 }
-function menu1() {
-    hideCurrentPage(this.parentElement);
-    document.getElementById("please").style.display = "block";
+function menu1(button) {
+        hideCurrentPage(button.parentElement);
+        document.getElementById("letter_1").style.display = "block";
+}
+function goback(button){
+    hideCurrentPage(button.parentElement);
+        document.getElementById("menu").style.display = "block";
+}
+function menu2(button) {
+    hideCurrentPage(button.parentElement);
+    document.getElementById("letter_2").style.display = "block";
+}
+function menu3(button) {
+    hideCurrentPage(button.parentElement);
+    document.getElementById("letter_3").style.display = "block";
+}
+function menu4(button) {
+    hideCurrentPage(button.parentElement);
+    document.getElementById("letter_4").style.display = "block";
 }
